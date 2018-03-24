@@ -2,7 +2,12 @@
 
 class Number {
 	
-	public function add() {
-		return '10';
-	}	
+
+	public function add($a, $b) {
+		return $a + $b;
+	}
+
+	public function sub($a, $b) {
+		return $a - $b; 
+	}
 }
